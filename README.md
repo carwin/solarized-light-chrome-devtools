@@ -3,12 +3,12 @@
 #### Forked from François Robichet (@Calvein) who based it on a work by Mark Osborne who I can't find.
 
 #### Where does it go?
-*This is a unix system, I know this! *:
-a. _Google Chrome_: ~/.config/google-chrome/Default/User\ StyleSheets/Custom.css
-b. _Chromium_: ~/.config/chromium/Default/User\ StyleSheets/Custom.css
+**This is a unix system, I know this!**:
+a. __Google Chrome__: ~/.config/google-chrome/Default/User\ StyleSheets/Custom.css
+b. __Chromium__: ~/.config/chromium/Default/User\ StyleSheets/Custom.css
 
-*People everywhere love Windows.*:
+**People everywhere love Windows.**:
 C:\Users\YourUsername\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css
 
-*When the apple is ripe, it will fall. *:
+**When the apple is ripe, it will fall.**:
 ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css
