@@ -12,3 +12,9 @@ C:\Users\YourUsername\AppData\Local\Google\Chrome\User Data\Default\User StyleSh
 
 **When the apple is ripe, it will fall.**:
 ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css
+
+
+
+If you are wondering what exactly the re-appearing comment "c?" is for in the SASS
+file, it's simply the way I marked all the accent colors for quick travel with vim.
+My plan is to adjust some of the accents in the future. The "c?" stands for "change?".
