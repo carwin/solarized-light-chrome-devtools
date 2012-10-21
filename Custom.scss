@@ -120,7 +120,7 @@ body#-webkit-web-inspector {
  * Drawer aka "escape console"
  */
 #drawer {
-  background-color: $base03 !important;
+  background-color: $base3 !important;
   #console-messages a:hover,
   #console-messages .console-formatted-function,
   #console-messages .console-formatted-object {
@@ -213,13 +213,13 @@ body#-webkit-web-inspector {
 }
 
 #elements-content .parent::before {
-  content: url(chrome-devtools:devtools/Images/treeRightTriangleWhite.png) !important;
+  content: url(chrome-devtools:devtools/Images/treeRightTriangleBlack.png) !important;
   position: relative;
   z-index: 999;
 }
 
 #elements-content .parent.expanded::before {
-  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleBlack.png) !important;
 }
 
 li.hovered:not(.selected) .selection {
@@ -235,7 +235,7 @@ li.hovered:not(.selected) .selection {
 }
 
 .editing {
-  background-color: $base03 !important;
+  background-color: $base3 !important;
   outline-color: $base01 !important;
 }
 
@@ -285,7 +285,7 @@ li.hovered:not(.selected) .selection {
 }
 
 .webkit-css-keyword {
-  color: $orange !important; // c? // duplicate?
+  color: $magenta !important; // c? // duplicate?
 }
 
 /**
@@ -327,12 +327,12 @@ li.hovered:not(.selected) .selection {
 }
 
 #elements-sidebar {
-  background: $base03 !important;
+  background: $base3 !important;
 }
 
 #elements-sidebar .styles-section.read-only,
 #elements-sidebar .styles-section.read-only .monospace {
-  background: $base03 !important;
+  background: $base3 !important;
 }
 
 #elements-sidebar .styles-section,
@@ -362,11 +362,11 @@ li.hovered:not(.selected) .selection {
 .webkit-css-at-rule,
 .webkit-formatted-string,
 .console-formatted-regexp {
-  color: $yellow !important; // c?
+  color: $red !important; // c?
 }
 
 .styles-section.read-only > * {
-  background-color: $base03 !important;
+  background-color: $base3 !important;
 }
 
 .styles-section .properties .child-editing,
@@ -477,12 +477,14 @@ body#-webkit-web-inspector,
   }
   .webkit-html-tag {
     color: $blue !important; // c?
+    font-weight: bold !important;
   }
   .webkit-html-attribute-name {
     color: $cyan !important; // c?
   }
   .webkit-html-attribute-value {
-    color: $yellow !important; // c?
+    color: $base01 !important; // c?
+    font-weight: normal !important;
   }
   .webkit-html-css-node {
     color: $base01 !important; 
