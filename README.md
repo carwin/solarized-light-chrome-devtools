@@ -1,6 +1,7 @@
+[![endorse](http://api.coderwall.com/carwin/endorsecount.png)](http://coderwall.com/carwin)
+
 #### Inspired by Darcy Clarke's [blog post](http://darcyclarke.me/design/skin-your-chrome-inspector/)
 #### Based on the [solarized project](http://ethanschoonover.com/solarized) which you can find on [github](https://github.com/altercation/ethanschoonover.com/tree/master/projects/solarized).
-#### Forked from François Robichet (@Calvein) who based it on a work by Mark Osborne who I can't find.
 
 #### Where does it go?
 **This is a unix system, I know this!**:<br />
